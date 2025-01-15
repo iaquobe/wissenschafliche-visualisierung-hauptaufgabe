@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o"
+},
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o"
+},
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o"
+},
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o"
+},
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o"
+},
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o"
+},
+{
+  "directory": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build",
+  "command": "/usr/bin/c++ -Dcustom_plugin1_EXPORTS -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1 -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/src -I/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/include -isystem /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include -isystem /usr/include/python2.7 -isystem /usr/include/eigen3 -g -std=c++14 -fPIC -pedantic -Wall -Wextra -Wno-unknown-pragmas -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -fopenmp -o CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp",
+  "file": "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp",
+  "output": "CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o"
+}
+]

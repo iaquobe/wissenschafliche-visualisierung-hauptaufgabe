@@ -1,0 +1,4 @@
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/../Fantom/../Fantom/lib/fantom-plugins/custom/libplugin1.dependency
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/../Fantom/../Fantom/lib/fantom-plugins/custom/libplugin1.so
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/../Fantom/../Fantom/share/FAnToM/cmake/plugins/custom_plugin1Config.cmake
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/../Fantom/../Fantom/share/FAnToM/cmake/plugins/custom_plugin1Config-debug.cmake

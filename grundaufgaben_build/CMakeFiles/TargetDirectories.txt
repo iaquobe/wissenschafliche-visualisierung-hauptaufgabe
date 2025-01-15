@@ -1,0 +1,9 @@
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/run.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/debug.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/custom_plugin1.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/edit_cache.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/rebuild_cache.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/list_install_components.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/install.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/install/local.dir
+/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/install/strip.dir
