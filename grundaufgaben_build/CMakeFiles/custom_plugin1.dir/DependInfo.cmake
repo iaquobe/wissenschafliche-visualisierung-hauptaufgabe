@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp" "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o" "gcc" "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o.d"
   "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp" "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o" "gcc" "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o.d"
   "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp" "CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o" "gcc" "CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o.d"
+  "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp" "CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o" "gcc" "CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o.d"
   "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp" "CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o" "gcc" "CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o.d"
   )
 

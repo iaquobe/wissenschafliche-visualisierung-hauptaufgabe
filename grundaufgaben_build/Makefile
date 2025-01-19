@@ -344,6 +344,30 @@ plugin1/Hauptaufgabe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.s
 .PHONY : plugin1/Hauptaufgabe.cpp.s
 
+plugin1/Pflichtaufgabe.o: plugin1/Pflichtaufgabe.cpp.o
+.PHONY : plugin1/Pflichtaufgabe.o
+
+# target to build an object file
+plugin1/Pflichtaufgabe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o
+.PHONY : plugin1/Pflichtaufgabe.cpp.o
+
+plugin1/Pflichtaufgabe.i: plugin1/Pflichtaufgabe.cpp.i
+.PHONY : plugin1/Pflichtaufgabe.i
+
+# target to preprocess a source file
+plugin1/Pflichtaufgabe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.i
+.PHONY : plugin1/Pflichtaufgabe.cpp.i
+
+plugin1/Pflichtaufgabe.s: plugin1/Pflichtaufgabe.cpp.s
+.PHONY : plugin1/Pflichtaufgabe.s
+
+# target to generate assembly for a file
+plugin1/Pflichtaufgabe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.s
+.PHONY : plugin1/Pflichtaufgabe.cpp.s
+
 plugin1/Test.o: plugin1/Test.cpp.o
 .PHONY : plugin1/Test.o
 
@@ -401,6 +425,9 @@ help:
 	@echo "... plugin1/Hauptaufgabe.o"
 	@echo "... plugin1/Hauptaufgabe.i"
 	@echo "... plugin1/Hauptaufgabe.s"
+	@echo "... plugin1/Pflichtaufgabe.o"
+	@echo "... plugin1/Pflichtaufgabe.i"
+	@echo "... plugin1/Pflichtaufgabe.s"
 	@echo "... plugin1/Test.o"
 	@echo "... plugin1/Test.i"
 	@echo "... plugin1/Test.s"

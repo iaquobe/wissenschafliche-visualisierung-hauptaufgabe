@@ -88,7 +88,7 @@ CMakeFiles/run.dir/all: CMakeFiles/custom_plugin1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
@@ -114,7 +114,7 @@ CMakeFiles/debug.dir/all: CMakeFiles/custom_plugin1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/debug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/debug.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 0
 .PHONY : CMakeFiles/debug.dir/rule
@@ -135,12 +135,12 @@ CMakeFiles/debug.dir/clean:
 CMakeFiles/custom_plugin1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target custom_plugin1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target custom_plugin1"
 .PHONY : CMakeFiles/custom_plugin1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/custom_plugin1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/custom_plugin1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 0
 .PHONY : CMakeFiles/custom_plugin1.dir/rule
