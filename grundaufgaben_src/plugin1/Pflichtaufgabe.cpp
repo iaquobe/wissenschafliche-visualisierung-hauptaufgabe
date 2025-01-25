@@ -86,7 +86,7 @@ namespace
 				auto eigenvectors = solver.eigenvectors();
 				auto eigenvalues  = solver.eigenvalues();
 
-				// get major (yes this is ugly)
+				// get major 
 				auto index = get_index(mode, eigenvalues);
 				if(index == -1) break;
 				auto m  = eigenvectors.col(index);
@@ -133,20 +133,17 @@ namespace
 					return 2;
 			}
 			if(mode == MEDIAN) {
-				std::cout << "eigenvalues" << eigenvalues << std::endl;
 				if( (eigenvalues[1] > eigenvalues[0] && eigenvalues[0] > eigenvalues[2])
 					||(eigenvalues[2] > eigenvalues[0] && eigenvalues[0] > eigenvalues[1]))
 					return 0;
 				if( (eigenvalues[0] > eigenvalues[1] && eigenvalues[1] > eigenvalues[2])
 					||(eigenvalues[2] > eigenvalues[1] && eigenvalues[1] > eigenvalues[0]))
 					return 1;
-				if( (eigenvalues[1] > eigenvalues[2] && eigenvalues[2] > eigenvalues[2])
-					||(eigenvalues[2] > eigenvalues[2] && eigenvalues[2] > eigenvalues[1]))
-					return 1;
+				if( (eigenvalues[1] > eigenvalues[2] && eigenvalues[2] > eigenvalues[0])
+					||(eigenvalues[0] > eigenvalues[2] && eigenvalues[2] > eigenvalues[1]))
+					return 2;
 			}
 			if(mode == MINOR) {
-				/*std::cout << "eigenvalues" << eigenvalues << std::endl;*/
-
 				if(eigenvalues[0] < eigenvalues[1] && eigenvalues[0] < eigenvalues[2])
 					return 0;
 				if(eigenvalues[1] < eigenvalues[0] && eigenvalues[1] < eigenvalues[2])

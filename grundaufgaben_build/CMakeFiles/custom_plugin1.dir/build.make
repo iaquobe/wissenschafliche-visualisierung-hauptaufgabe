@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src
+CMAKE_SOURCE_DIR = /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build
+CMAKE_BINARY_DIR = /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/custom_plugin1.dir/depend.make
@@ -70,116 +70,158 @@ include CMakeFiles/custom_plugin1.dir/progress.make
 include CMakeFiles/custom_plugin1.dir/flags.make
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-2.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-2.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe2.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe3.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe4.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.s
+
+CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
+CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/CustomDepthPeelingShader.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/CustomDepthPeelingShader.cpp
+
+CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/CustomDepthPeelingShader.cpp > CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.i
+
+CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/CustomDepthPeelingShader.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.s
+
+CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
+CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/FastLIC.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/FastLIC.cpp
+
+CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/FastLIC.cpp > CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.i
+
+CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/FastLIC.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Pflichtaufgabe.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.s
+
+CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
+CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Postprocessing.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Postprocessing.cpp
+
+CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Postprocessing.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.i
+
+CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Postprocessing.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.s
 
 CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o: CMakeFiles/custom_plugin1.dir/flags.make
-CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp
+CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o: /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp
 CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o: CMakeFiles/custom_plugin1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o -c /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o -MF CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o.d -o CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o -c /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp
 
 CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp > CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.i
 
 CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Test.cpp -o CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.s
 
 # Object files for target custom_plugin1
 custom_plugin1_OBJECTS = \
@@ -188,8 +230,11 @@ custom_plugin1_OBJECTS = \
 "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o" \
 "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o" \
 "CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o" \
+"CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o" \
+"CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o" \
 "CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o" \
 "CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o" \
+"CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o" \
 "CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o"
 
 # External object files for target custom_plugin1
@@ -200,15 +245,18 @@ lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/A
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe2.cpp.o
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe3.cpp.o
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.o
+lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o
+lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.o
+lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/plugin1/Test.cpp.o
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/build.make
-lib/fantom-plugins/custom/libplugin1.so: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/lib64/fantom-plugins/utils/libGraphics.so
-lib/fantom-plugins/custom/libplugin1.so: /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/lib64/libfantom-lib.so
+lib/fantom-plugins/custom/libplugin1.so: /home/iaquobe/courses/active/WisVis/fantom/Fantom/lib64/fantom-plugins/utils/libGraphics.so
+lib/fantom-plugins/custom/libplugin1.so: /home/iaquobe/courses/active/WisVis/fantom/Fantom/lib64/libfantom-lib.so
 lib/fantom-plugins/custom/libplugin1.so: /usr/lib64/libpython2.7.so
 lib/fantom-plugins/custom/libplugin1.so: CMakeFiles/custom_plugin1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library lib/fantom-plugins/custom/libplugin1.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library lib/fantom-plugins/custom/libplugin1.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom_plugin1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -220,6 +268,6 @@ CMakeFiles/custom_plugin1.dir/clean:
 .PHONY : CMakeFiles/custom_plugin1.dir/clean
 
 CMakeFiles/custom_plugin1.dir/depend:
-	cd /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/custom_plugin1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles/custom_plugin1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/custom_plugin1.dir/depend
 

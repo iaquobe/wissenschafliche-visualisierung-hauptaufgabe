@@ -1,7 +1,8 @@
 CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/14/cmath \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Hauptaufgabe.cpp \
+ /usr/include/stdc-predef.h \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/algorithm.hpp \
+ /usr/include/c++/14/chrono /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h \
@@ -10,57 +11,30 @@ CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
  /usr/include/gnu/stubs-64.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/cpu_defines.h \
- /usr/include/c++/14/bits/cpp_type_traits.h \
- /usr/include/c++/14/ext/type_traits.h /usr/include/math.h \
- /usr/include/bits/libc-header-start.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/14/bits/std_abs.h \
- /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h \
- /usr/include/bits/types/struct_timeval.h \
- /usr/include/bits/types/struct_timespec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/14/bits/version.h \
- /usr/include/c++/14/cstddef /usr/include/c++/14/cstdio \
- /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
- /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/algorithm.hpp \
- /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
- /usr/include/c++/14/ratio /usr/include/c++/14/type_traits \
+ /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
+ /usr/include/c++/14/type_traits /usr/include/c++/14/bits/version.h \
  /usr/include/c++/14/cstdint \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /usr/include/c++/14/limits /usr/include/c++/14/ctime /usr/include/time.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/14/limits \
+ /usr/include/c++/14/ctime /usr/include/time.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
  /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/c++/14/bits/parse_numbers.h \
- /usr/include/c++/14/ext/numeric_traits.h /usr/include/c++/14/memory \
+ /usr/include/c++/14/ext/numeric_traits.h \
+ /usr/include/c++/14/bits/cpp_type_traits.h \
+ /usr/include/c++/14/ext/type_traits.h /usr/include/c++/14/memory \
  /usr/include/c++/14/bits/memoryfwd.h \
  /usr/include/c++/14/bits/allocator.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++allocator.h \
@@ -94,7 +68,11 @@ CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: \
  /usr/include/c++/14/bits/shared_ptr.h /usr/include/c++/14/iosfwd \
  /usr/include/c++/14/bits/stringfwd.h /usr/include/c++/14/bits/postypes.h \
  /usr/include/c++/14/cwchar /usr/include/wchar.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h \
  /usr/include/c++/14/bits/shared_ptr_base.h /usr/include/c++/14/typeinfo \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/bits/refwrap.h \
@@ -104,7 +82,11 @@ CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: \
  /usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/bits/setjmp.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/atomic_word.h \
@@ -127,32 +109,43 @@ CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: \
  /usr/include/c++/14/initializer_list \
  /usr/include/c++/14/bits/basic_string.h \
  /usr/include/c++/14/ext/string_conversions.h /usr/include/c++/14/cstdlib \
- /usr/include/c++/14/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /usr/include/c++/14/bits/charconv.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/14/bits/std_abs.h /usr/include/c++/14/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/14/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/14/bits/charconv.h \
  /usr/include/c++/14/bits/basic_string.tcc /usr/include/c++/14/utility \
  /usr/include/c++/14/bits/stl_relops.h /usr/include/c++/14/vector \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/impl/runtime.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/impl/runtime.hpp \
  /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/options.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Base.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/exceptions.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/options.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Base.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../exceptions.hpp \
  /usr/include/c++/14/stdexcept \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/rtti.hpp \
- /usr/include/c++/14/set /usr/include/c++/14/bits/stl_tree.h \
- /usr/include/c++/14/bits/stl_set.h \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../rtti.hpp \
+ /usr/include/c++/14/cstddef /usr/include/c++/14/set \
+ /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_set.h \
  /usr/include/c++/14/bits/stl_multiset.h \
  /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/unordered_map \
  /usr/include/c++/14/bits/unordered_map.h \
  /usr/include/c++/14/bits/hashtable.h \
  /usr/include/c++/14/bits/hashtable_policy.h \
  /usr/include/c++/14/bits/enable_special_members.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/utils.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../utils.hpp \
  /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
  /usr/include/c++/14/bits/algorithmfwd.h \
  /usr/include/c++/14/bits/stl_heap.h \
@@ -175,83 +168,79 @@ CMakeFiles/custom_plugin1.dir/plugin1/Hauptaufgabe.cpp.o: \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/sstream \
  /usr/include/c++/14/bits/sstream.tcc \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/DataObject.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataObject.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataObjectBundle.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Events.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Primitive.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/ui.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataInterface.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/outputs.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/DataOutputs.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/VisOutputs.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Texture.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/common.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/math.hpp \
- /usr/include/c++/14/complex /usr/include/c++/14/numeric \
- /usr/include/c++/14/bits/stl_numeric.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/math/Quaternion.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/math/Range.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/register.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/algorithm.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/common.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/dataloader.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/icon.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics2D.hpp \
- /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
- /usr/include/c++/14/bits/list.tcc \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/events.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/inputui.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/plugins.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Buffer.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Camera.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/BoundingSphere.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Drawable.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderInfo.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderTarget.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderState.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderStateModifier.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/DataObject.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../datastructures/DataObject.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../datastructures/DataObjectBundle.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Events.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Primitive.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/ui.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataInterface.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/outputs.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/DataOutputs.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/VisOutputs.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Buffer.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/common.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/../math.hpp \
+ /usr/include/c++/14/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/14/complex \
+ /usr/include/c++/14/numeric /usr/include/c++/14/bits/stl_numeric.h \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/../math/Quaternion.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/../math/Range.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Camera.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/BoundingSphere.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Drawable.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderInfo.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderTarget.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderState.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/RenderStateModifier.hpp \
  /usr/include/c++/14/array /usr/include/c++/14/compare \
  /usr/include/c++/14/cassert /usr/include/assert.h \
  /usr/include/c++/14/map /usr/include/c++/14/bits/stl_map.h \
  /usr/include/c++/14/bits/stl_multimap.h /usr/include/c++/14/stack \
  /usr/include/c++/14/deque /usr/include/c++/14/bits/stl_deque.h \
  /usr/include/c++/14/bits/deque.tcc /usr/include/c++/14/bits/stl_stack.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/FrameBuffer.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/PrimitiveConfig.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Uniform.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/ShaderProgram.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/System.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/OptionInterface.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/UniformFactory.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/BoundingSpheres.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/CallbackWrapper.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/DepthPeelingDrawable.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/DrawableCompound.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/FrameBuffer.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Texture.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/PrimitiveConfig.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/Uniform.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/ShaderProgram.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/System.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/OptionInterface.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/UniformFactory.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/BoundingSpheres.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/CallbackWrapper.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/DepthPeelingDrawable.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/DrawableCompound.hpp \
  /usr/include/c++/14/unordered_set \
  /usr/include/c++/14/bits/unordered_set.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/FixedScreenSize.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/HUDAnchor.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/SceneSwitch.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/Transform.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/dataset.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/Domain.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/ValueArray.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/types.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DomainFactory.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/Grid.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/EmbeddedCellComplex.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/CellComplex.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/CellDefinitions.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/cells.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/CellStrategies.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/PointSet.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/Interpolator.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/celltree.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/LineSet.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/Function.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/List.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/Field.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/impl/InterpolatorBasedField.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/impl/SpatialFunctionField.hpp
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/FixedScreenSize.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/HUDAnchor.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/SceneSwitch.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/graphics/drawables/Transform.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/register.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/algorithm.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/common.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/dataloader.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/icon.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/../graphics2D.hpp \
+ /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
+ /usr/include/c++/14/bits/list.tcc \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/../events.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/inputui.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/plugins.hpp \
+ /usr/include/c++/14/random /usr/include/c++/14/bits/random.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/opt_random.h \
+ /usr/include/c++/14/bits/random.tcc \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom-plugins/utils/Graphics/HelperFunctions.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom-plugins/utils/Graphics/ObjectRenderer.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom-plugins/utils/Graphics/Font.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom-plugins/utils/Graphics/FontFile.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom-plugins/utils/Graphics/Helpers.hpp \
+ /usr/include/c++/14/mutex /usr/include/c++/14/bits/std_mutex.h \
+ /usr/include/c++/14/bits/unique_lock.h

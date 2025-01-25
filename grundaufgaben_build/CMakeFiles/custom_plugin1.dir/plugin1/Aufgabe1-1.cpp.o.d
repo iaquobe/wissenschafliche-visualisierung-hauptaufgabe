@@ -1,7 +1,7 @@
 CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp \
+ /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src/plugin1/Aufgabe1-1.cpp \
  /usr/include/stdc-predef.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/algorithm.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/algorithm.hpp \
  /usr/include/c++/14/chrono /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -130,13 +130,13 @@ CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/impl/runtime.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/impl/runtime.hpp \
  /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/options.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Base.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/exceptions.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/options.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Base.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../exceptions.hpp \
  /usr/include/c++/14/stdexcept \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/rtti.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../rtti.hpp \
  /usr/include/c++/14/cstddef /usr/include/c++/14/set \
  /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_set.h \
  /usr/include/c++/14/bits/stl_multiset.h \
@@ -145,7 +145,7 @@ CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: \
  /usr/include/c++/14/bits/hashtable.h \
  /usr/include/c++/14/bits/hashtable_policy.h \
  /usr/include/c++/14/bits/enable_special_members.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/utils.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../utils.hpp \
  /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
  /usr/include/c++/14/bits/algorithmfwd.h \
  /usr/include/c++/14/bits/stl_heap.h \
@@ -168,21 +168,21 @@ CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/sstream \
  /usr/include/c++/14/bits/sstream.tcc \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/DataObject.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataObject.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataObjectBundle.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Events.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Primitive.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/ui.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataInterface.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/outputs.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/DataOutputs.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/VisOutputs.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/dataset.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/Domain.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/ValueArray.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/types.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/math.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/DataObject.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../datastructures/DataObject.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/../datastructures/DataObjectBundle.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Events.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/Primitive.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/inputs/ui.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DataInterface.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/outputs.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/DataOutputs.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/outputs/VisOutputs.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/dataset.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/Domain.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/ValueArray.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/types.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/../math.hpp \
  /usr/include/c++/14/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -191,33 +191,33 @@ CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe1-1.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/14/complex \
  /usr/include/c++/14/numeric /usr/include/c++/14/bits/stl_numeric.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/math/Quaternion.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/math/Range.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DomainFactory.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/Grid.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/EmbeddedCellComplex.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/CellComplex.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/CellDefinitions.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/../math/Quaternion.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/../math/Range.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/DomainFactory.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/Grid.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/EmbeddedCellComplex.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/CellComplex.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/CellDefinitions.hpp \
  /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/cells.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/CellStrategies.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/CellStrategies.hpp \
  /usr/include/c++/14/cassert /usr/include/assert.h \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/PointSet.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/Interpolator.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/celltree.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/LineSet.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/Function.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/List.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/Field.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/impl/InterpolatorBasedField.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/impl/SpatialFunctionField.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/register.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/algorithm.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/common.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/dataloader.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/icon.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/graphics2D.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/PointSet.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/Interpolator.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/impl/celltree.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/LineSet.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/Function.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/domains/List.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/Field.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/impl/InterpolatorBasedField.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/datastructures/interfaces/impl/SpatialFunctionField.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/register.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/algorithm.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/common.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/dataloader.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/icon.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/../graphics2D.hpp \
  /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/list.tcc \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/events.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/inputui.hpp \
- /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/Fantom/include/fantom/registry/plugins.hpp
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/../events.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/inputui.hpp \
+ /home/iaquobe/courses/active/WisVis/fantom/Fantom/include/fantom/registry/plugins.hpp

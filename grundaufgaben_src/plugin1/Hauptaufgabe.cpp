@@ -1,75 +1,101 @@
-#include <cmath>
-#include <cstddef>
-#include <cstdio>
 #include <fantom/algorithm.hpp>
-#include <fantom/graphics/Texture.hpp>
-#include <fantom/math.hpp>
-#include <fantom/register.hpp>
 #include <fantom/graphics.hpp>
-#include <fantom/dataset.hpp>
-#include <fantom/datastructures/domains/Grid.hpp>
-#include <fantom/datastructures/interfaces/Field.hpp>
-#include <memory>
-#include <vector>
+#include <fantom/register.hpp>
+#include <random>
+
+// needed for BoundinSphere-Calculation and normal calculation
+#include <fantom-plugins/utils/Graphics/HelperFunctions.hpp>
+#include <fantom-plugins/utils/Graphics/ObjectRenderer.hpp>
 
 using namespace fantom;
 
 namespace
 {
-	class FastLIC : public DataAlgorithm {
-		public:
-		struct Options : public DataAlgorithm::Options
-		{
-			Options( fantom::Options::Control& control )
-				: DataAlgorithm::Options( control )
-			{
-				add< Field< 2, Vector2 > >( "Field", "A 2D vector field", definedOn< Grid< 2 > >( Grid< 2 >::Points ) );
-				add< double >("Step Size", "Threshold", 0.1);
-				add< size_t >("Step Num", "Threshold", 10);
-				add< size_t >("Min Hits", "Threshold", 2);
-			}
-		};
+
+class GraphicsTutorialAlgorithm : public VisAlgorithm
+{
+
+public:
+    struct VisOutputs : public VisAlgorithm::VisOutputs
+    {
+        // These are the graphic outputs which can be toggled on and off in the interface.
+        VisOutputs( fantom::VisOutputs::Control& control )
+            : VisAlgorithm::VisOutputs( control )
+        {
+            addGraphics( "textureDrawable" );            
+        }
+    };
+
+    GraphicsTutorialAlgorithm( InitData& data )
+        : VisAlgorithm( data )
+    {
+    }
+
+    virtual void execute( const Algorithm::Options& /*options*/, const volatile bool& /*abortFlag*/ ) override
+    {
+        auto const& system = graphics::GraphicsSystem::instance();
+
+        std::string resourcePath = PluginRegistrationService::getInstance().getResourcePath( "utils/Graphics" );
+        std::string resourcePathLocal
+                = PluginRegistrationService::getInstance().getResourcePath( "general/Tutorial" );
+
+        std::shared_ptr< graphics::Texture2D > texture2D
+                = system.makeTextureFromFile( resourcePathLocal + "PerlinNoise.png", graphics::ColorChannel::RGBA );
 
 
-		struct DataOutputs : public DataAlgorithm::DataOutputs
-		{
-			DataOutputs( fantom::DataOutputs::Control& control )
-				: DataAlgorithm::DataOutputs( control )
-			{
-				add<LineSet<3>>( "lines" );
-			}
-		};
+        // Updated to use 2D texture only
+        std::vector< PointF< 3 > > verticesTex( 4 );
+        verticesTex[0] = PointF< 3 >( -0.5, -0.5, 0.0 );
+        verticesTex[1] = PointF< 3 >( 0.5, -0.5, 0.0 );
+        verticesTex[2] = PointF< 3 >( -0.5, 0.5, 0.0 );
+        verticesTex[3] = PointF< 3 >( 0.5, 0.5, 0.0 );
 
-		FastLIC( InitData& data )
-			: DataAlgorithm( data )
-		{
-		}
+        std::vector< PointF< 2 > > texCoords( 4 );
+        texCoords[0] = PointF< 2 >( 0.0, 0.0 );
+        texCoords[1] = PointF< 2 >( 1.0, 0.0 );
+        texCoords[2] = PointF< 2 >( 0.0, 1.0 );
+        texCoords[3] = PointF< 2 >( 1.0, 1.0 );
 
-		virtual void execute( const Algorithm::Options& options, const volatile bool& /*abortFlag*/ ) override {
-			// load options
-			auto step_size	= options.get<double>("Step Size");
-			auto steps			= options.get<size_t>("Step Num");
-			auto min_hits		= options.get<size_t>("Min Hits");
-			auto field			= options.get< Field< 2, Vector2 > >( "Field" );
-			if(!field) return;
+        std::vector< unsigned int > indicesTex( 6 );
+        indicesTex[0] = 0;
+        indicesTex[1] = 1;
+        indicesTex[2] = 2;
+        indicesTex[3] = 2;
+        indicesTex[4] = 1;
+        indicesTex[5] = 3;
 
-			// create buffer for hits and convolution
+        std::shared_ptr< graphics::ShaderProgram > LICshader = system.makeProgramFromFiles( resourcePathLocal + "tex-vertex.glsl",resourcePathLocal + "LIC-fragment.glsl");
+        std::shared_ptr<graphics::Texture2D> firstPassTexture =
+            system.makeTexture(Size2D(texture2D->width(), texture2D->height()), graphics::ColorChannel::RGBA);
 
-			// for each pixel p
-			// 	if (numHits(p) < minNumHits) then
-			// 		initiate stream line computation with x 0 = center of p
-			// 		compute convolution I (x 0)
-			// 		add result to pixel p
-			// 		set m = 1
-			// 		while m < some limit M
-			// 			update convolution to obtain I (x m) and I (x -m)
-			// 			add results to pixels containing x m and x -m
-			// 			set m = m + 1
-			// for each pixel p
-			// 	normalize intensity according to numHits
+        auto bs = graphics::computeBoundingSphere( verticesTex );
+        std::shared_ptr< graphics::Drawable > texture
+                = system.makePrimitive( graphics::PrimitiveConfig{ graphics::RenderPrimitives::TRIANGLES }
+                                        .vertexBuffer( "position", system.makeBuffer( verticesTex ) )
+                                        .vertexBuffer( "texCoords", system.makeBuffer( texCoords ) )
+                                        .indexBuffer( system.makeIndexBuffer( indicesTex ) )
+                                        .texture( "inTexture", texture2D )
+                                        .boundingSphere( bs ),
+                                        LICshader );
 
-		}
-	};
 
-	AlgorithmRegister< FastLIC >			dummy1( "Hauptaufgabe/FastLIC",			 "FastLIC implementation" );
-} 
+        auto frameBuffer = system.makeFrameBuffer(firstPassTexture->size());
+        frameBuffer->colorAttachment("inTexture", firstPassTexture);
+        //texture->draw(graphics::RenderTarget::);
+
+        bs = graphics::computeBoundingSphere( verticesTex );
+        std::shared_ptr< graphics::Drawable > textureDrawable
+                = system.makePrimitive( graphics::PrimitiveConfig{ graphics::RenderPrimitives::TRIANGLES }
+                                        .vertexBuffer( "position", system.makeBuffer( verticesTex ) )
+                                        .vertexBuffer( "texCoords", system.makeBuffer( texCoords ) )
+                                        .indexBuffer( system.makeIndexBuffer( indicesTex ) )
+                                        .texture( "inTexture", texture2D )
+                                        .boundingSphere( bs ),
+                                        system.makeProgramFromFiles( resourcePathLocal + "tex-vertex.glsl",
+                                                                     resourcePathLocal + "tex-fragment.glsl" ) );
+        setGraphics( "textureDrawable", textureDrawable );
+    }    
+
+};
+AlgorithmRegister< GraphicsTutorialAlgorithm > dummy( "MyAlgorithms/Hauptaufgabe2", "Show some example graphics." );
+} // namespace

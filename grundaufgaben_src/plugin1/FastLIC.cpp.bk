@@ -1,0 +1,277 @@
+#include <fantom/algorithm.hpp>
+#include <fantom/graphics.hpp>
+#include <fantom/register.hpp>
+#include <fantom/datastructures/domains/Grid.hpp>
+#include <fantom/datastructures/interfaces/Field.hpp>
+#include <random>
+
+#include <fantom-plugins/utils/Graphics/Font.hpp>
+#include <fantom-plugins/utils/Graphics/HelperFunctions.hpp>
+
+using namespace fantom;
+using namespace fantom::graphics;
+
+
+// ======================================== Shaders =======================================
+const std::string LICVertexShader = R"(
+	#version 330 core
+	layout(location = 0) in vec3 position;
+	layout(location = 1) in vec2 texCoords;
+
+	out vec2 fragTexCoords;
+
+	void main() {
+			fragTexCoords = texCoords;
+			gl_Position = vec4(position, 1.0);
+	}
+	)";
+
+const std::string LICFragmentShader = R"(
+	#version 330 core
+
+	uniform sampler2D inTexture;  // The input texture
+	out vec4 out_color;           // Output color
+
+	void main()
+	{
+			// Sample the texture at the current fragment coordinates
+			vec4 texColor = texture(inTexture, gl_FragCoord.xy / vec2(textureSize(inTexture, 0)));
+
+			// Modify the texture color (example: just add some value to the red channel)
+			texColor.r = texColor.r * 0.5 + 0.5;  // Example operation
+
+			// Write the modified color to the output
+			out_color = texColor;
+	}
+	)";
+
+const std::string texVertexShader = R"(
+	#version 330 core
+
+	uniform mat4 model;
+	uniform mat4 view;
+	uniform mat4 proj;
+
+	in vec3 position;
+	in vec2 texCoords;
+	out vec2 fragTexCoords;
+
+	void main()
+	{
+			gl_Position = proj * view * model * vec4( position, 1.0 );
+			fragTexCoords = texCoords;
+	}
+	)";
+
+const std::string texFragmentShader = R"(
+	#version 330 core
+
+	in vec2 fragTexCoords;
+
+	uniform sampler2D inTexture;
+
+	out vec4 out_color;
+
+	void main()
+	{
+			out_color = texture( inTexture, fragTexCoords );
+	}
+	)";
+
+
+namespace
+{
+// Helper struct to encapsulate shared geometry data
+struct GeometryData {
+    std::vector<PointF<3>> verticesTex;
+    std::vector<PointF<2>> texCoords;
+    std::vector<unsigned int> indicesTex;
+
+    /*GeometryData(Point2 v1, Point2 v2) {*/
+    GeometryData() {
+        verticesTex = {
+            PointF<3>(-0.5, -0.5, 0.0),
+            PointF<3>(0.5, -0.5, 0.0),
+            PointF<3>(-0.5, 0.5, 0.0),
+            PointF<3>(0.5, 0.5, 0.0)
+        };
+
+        texCoords = {
+            PointF<2>(0.0, 0.0),
+            PointF<2>(1.0, 0.0),
+            PointF<2>(0.0, 1.0),
+            PointF<2>(1.0, 1.0)
+        };
+
+        indicesTex = { 0, 1, 2, 2, 1, 3 };
+    }
+};
+
+// Global instance of shared geometry data
+const GeometryData sharedGeometryData;
+// Could be used for shader/file loading
+
+
+// ======================================== Drawable =======================================
+
+class LocalDrawable : public Drawable {
+	public:
+		LocalDrawable(std::shared_ptr<Drawable> child, Size2D size)
+			: mChild(std::move(child)), mSize(size) { updateGeometry(size); }
+		
+		// Override: Drawable
+		virtual const BoundingSphere& boundingSphere() const override {
+			static const BoundingSphere sphere;
+			return mChild ? mChild->boundingSphere() : sphere;
+		}
+
+		virtual bool update(const RenderInfo& info) override {
+			if (!mFrameBuffer) 
+				updateGeometry(mSize);
+			return mChild ? mChild->update(info) : false; 
+		}
+
+		virtual void draw(RenderState& state) const override {
+			if (!mChild)
+				return;
+			auto stateMod = state.modify();
+			stateMod.target(mFrameBuffer);
+			state.clear(Color(0.0f, 0.0f, 0.0f, 0.0f));
+
+			mChild->draw(state);
+			mScreenQuad->draw(state);
+		}
+
+	private:
+		void updateGeometry(Size2D size)
+		{
+			const auto& system = GraphicsSystem::instance();
+
+			auto colorTexture = system.makeTexture(size, ColorChannel::RGBA);
+			auto frameBuffer = system.makeFrameBuffer(size);
+			frameBuffer->colorAttachment("out_color", colorTexture);
+
+			mFrameBuffer = std::move(frameBuffer);
+
+			auto bs = graphics::computeBoundingSphere(sharedGeometryData.verticesTex);
+
+			mScreenQuad = system.makePrimitive(
+					graphics::PrimitiveConfig{graphics::RenderPrimitives::TRIANGLES}
+					.vertexBuffer("position", system.makeBuffer(sharedGeometryData.verticesTex))
+					.vertexBuffer("texCoords", system.makeBuffer(sharedGeometryData.texCoords))
+					.indexBuffer(system.makeIndexBuffer(sharedGeometryData.indicesTex))
+					.texture("inTexture", colorTexture)
+					.boundingSphere(bs),
+					system.makeProgramFromSource(texVertexShader, texFragmentShader));
+		}
+
+		std::shared_ptr<Drawable> mChild;
+		Size2D mSize;
+
+		std::shared_ptr<Drawable const> mScreenQuad;
+		std::shared_ptr<FrameBuffer const> mFrameBuffer;
+};
+
+// ======================================== Algorithm =======================================
+
+class LocalAlgorithm : public VisAlgorithm {
+	public:
+		struct VisOutputs : VisAlgorithm::VisOutputs {
+			VisOutputs(Control& control) : VisAlgorithm::VisOutputs(control)
+			{ addGraphics("Example"); }
+		};
+
+		struct Options : VisAlgorithm::Options
+		{
+			Options(fantom::Options::Control& control)
+				: fantom::Options(control)
+			{
+				add< Field< 2, Vector2 > >( "Field", "A 2D vector field", definedOn< Grid< 2 > >( Grid< 2 >::Points ) );
+				add< size_t >( "Resolution", "Image resolution", 1000);
+				add< size_t >( "Step Num", "Step Number", 100);
+				add< float >( "Step Size", "Stepsize", 0.1);
+				add< Vector2 >( "Vec1", "vector 1 of plane", Vector2(-10,-10) );
+				add< Vector2 >( "Vec2", "vector 1 of plane", Vector2( 10, 10) );
+			}
+		};
+
+		LocalAlgorithm(InitData& init) : VisAlgorithm(init) {}
+
+		// Override: VisAlgorithm
+		void execute(Algorithm::Options const& options, volatile bool const&) 
+		{
+
+			auto step_size	= options.get<float>("Step Size");
+			auto steps			= options.get<size_t>("Step Num");
+			auto res  			= options.get<size_t>("Resolution");
+			Vector2 vec1		= options.get< Vector2 >( "Vec1" );
+			Vector2 vec2		= options.get< Vector2 >( "Vec2" );
+			auto function		= options.get< Function< Vector2 > >( "Field" );
+
+			// get random texture
+			Size2D size {res, res};
+			auto noiseTexture = generateRandomNoiseTexture(size);
+
+			// create texture from 
+
+			auto child = createChild(noiseTexture);
+
+			auto drawable = std::make_shared<LocalDrawable>(child, noiseTexture->size());
+
+			setGraphics("Example", drawable);
+		}
+
+	private:
+		std::shared_ptr<Drawable> createChild(std::shared_ptr<graphics::Texture2D> noiseTexture) {
+
+			const auto& system = GraphicsSystem::instance();
+
+			auto bs = graphics::computeBoundingSphere(sharedGeometryData.verticesTex);
+
+			return system.makePrimitive(
+					graphics::PrimitiveConfig{graphics::RenderPrimitives::TRIANGLES}
+					.vertexBuffer("position", system.makeBuffer(sharedGeometryData.verticesTex))
+					.vertexBuffer("texCoords", system.makeBuffer(sharedGeometryData.texCoords))
+					.indexBuffer(system.makeIndexBuffer(sharedGeometryData.indicesTex))
+					.texture("inTexture", noiseTexture)
+					.boundingSphere(bs),
+					system.makeProgramFromSource(LICVertexShader, LICFragmentShader));
+		}
+
+		std::shared_ptr<Texture2D> generateRandomNoiseTexture(Size2D size) 
+		{
+			// Dimensions of the texture
+			const size_t width = size[0];
+			const size_t height = size[1];
+
+			// Create a buffer to store random noise data
+			std::vector<float> noiseData(width * height * 4); // 4 floats per pixel for RGBA
+
+			// Initialize random number generator
+			std::random_device rd;
+			std::mt19937 generator(rd());
+			std::uniform_real_distribution<float> distribution(0.0f, 1.0f);
+
+			// Fill the buffer with random noise
+			for (size_t i = 0; i < noiseData.size(); i += 4) {
+				float value = distribution(generator); // Random grayscale value
+				noiseData[i] = value;      // Red channel
+				noiseData[i + 1] = value;  // Green channel
+				noiseData[i + 2] = value;  // Blue channel
+				noiseData[i + 3] = 1.0f;   // Alpha channel (opaque)
+			}
+
+			const auto& system = GraphicsSystem::instance();
+
+			auto texture = system.makeTexture(size, graphics::ColorChannel::RGBA);
+
+			// Populate the texture with the random noise data
+			texture->rangeData({0, 0}, size, noiseData);
+
+			return texture;
+		}
+};
+
+
+AlgorithmRegister<LocalAlgorithm> reg("Hauptaufgabe/FastLIC", "");
+} // namespace

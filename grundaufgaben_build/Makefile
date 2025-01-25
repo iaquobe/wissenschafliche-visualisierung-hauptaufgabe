@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_src
+CMAKE_SOURCE_DIR = /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build
+CMAKE_BINARY_DIR = /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -320,6 +320,54 @@ plugin1/Aufgabe4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Aufgabe4.cpp.s
 .PHONY : plugin1/Aufgabe4.cpp.s
 
+plugin1/CustomDepthPeelingShader.o: plugin1/CustomDepthPeelingShader.cpp.o
+.PHONY : plugin1/CustomDepthPeelingShader.o
+
+# target to build an object file
+plugin1/CustomDepthPeelingShader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.o
+.PHONY : plugin1/CustomDepthPeelingShader.cpp.o
+
+plugin1/CustomDepthPeelingShader.i: plugin1/CustomDepthPeelingShader.cpp.i
+.PHONY : plugin1/CustomDepthPeelingShader.i
+
+# target to preprocess a source file
+plugin1/CustomDepthPeelingShader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.i
+.PHONY : plugin1/CustomDepthPeelingShader.cpp.i
+
+plugin1/CustomDepthPeelingShader.s: plugin1/CustomDepthPeelingShader.cpp.s
+.PHONY : plugin1/CustomDepthPeelingShader.s
+
+# target to generate assembly for a file
+plugin1/CustomDepthPeelingShader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/CustomDepthPeelingShader.cpp.s
+.PHONY : plugin1/CustomDepthPeelingShader.cpp.s
+
+plugin1/FastLIC.o: plugin1/FastLIC.cpp.o
+.PHONY : plugin1/FastLIC.o
+
+# target to build an object file
+plugin1/FastLIC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.o
+.PHONY : plugin1/FastLIC.cpp.o
+
+plugin1/FastLIC.i: plugin1/FastLIC.cpp.i
+.PHONY : plugin1/FastLIC.i
+
+# target to preprocess a source file
+plugin1/FastLIC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.i
+.PHONY : plugin1/FastLIC.cpp.i
+
+plugin1/FastLIC.s: plugin1/FastLIC.cpp.s
+.PHONY : plugin1/FastLIC.s
+
+# target to generate assembly for a file
+plugin1/FastLIC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/FastLIC.cpp.s
+.PHONY : plugin1/FastLIC.cpp.s
+
 plugin1/Hauptaufgabe.o: plugin1/Hauptaufgabe.cpp.o
 .PHONY : plugin1/Hauptaufgabe.o
 
@@ -367,6 +415,30 @@ plugin1/Pflichtaufgabe.s: plugin1/Pflichtaufgabe.cpp.s
 plugin1/Pflichtaufgabe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Pflichtaufgabe.cpp.s
 .PHONY : plugin1/Pflichtaufgabe.cpp.s
+
+plugin1/Postprocessing.o: plugin1/Postprocessing.cpp.o
+.PHONY : plugin1/Postprocessing.o
+
+# target to build an object file
+plugin1/Postprocessing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.o
+.PHONY : plugin1/Postprocessing.cpp.o
+
+plugin1/Postprocessing.i: plugin1/Postprocessing.cpp.i
+.PHONY : plugin1/Postprocessing.i
+
+# target to preprocess a source file
+plugin1/Postprocessing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.i
+.PHONY : plugin1/Postprocessing.cpp.i
+
+plugin1/Postprocessing.s: plugin1/Postprocessing.cpp.s
+.PHONY : plugin1/Postprocessing.s
+
+# target to generate assembly for a file
+plugin1/Postprocessing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_plugin1.dir/build.make CMakeFiles/custom_plugin1.dir/plugin1/Postprocessing.cpp.s
+.PHONY : plugin1/Postprocessing.cpp.s
 
 plugin1/Test.o: plugin1/Test.cpp.o
 .PHONY : plugin1/Test.o
@@ -422,12 +494,21 @@ help:
 	@echo "... plugin1/Aufgabe4.o"
 	@echo "... plugin1/Aufgabe4.i"
 	@echo "... plugin1/Aufgabe4.s"
+	@echo "... plugin1/CustomDepthPeelingShader.o"
+	@echo "... plugin1/CustomDepthPeelingShader.i"
+	@echo "... plugin1/CustomDepthPeelingShader.s"
+	@echo "... plugin1/FastLIC.o"
+	@echo "... plugin1/FastLIC.i"
+	@echo "... plugin1/FastLIC.s"
 	@echo "... plugin1/Hauptaufgabe.o"
 	@echo "... plugin1/Hauptaufgabe.i"
 	@echo "... plugin1/Hauptaufgabe.s"
 	@echo "... plugin1/Pflichtaufgabe.o"
 	@echo "... plugin1/Pflichtaufgabe.i"
 	@echo "... plugin1/Pflichtaufgabe.s"
+	@echo "... plugin1/Postprocessing.o"
+	@echo "... plugin1/Postprocessing.i"
+	@echo "... plugin1/Postprocessing.s"
 	@echo "... plugin1/Test.o"
 	@echo "... plugin1/Test.i"
 	@echo "... plugin1/Test.s"

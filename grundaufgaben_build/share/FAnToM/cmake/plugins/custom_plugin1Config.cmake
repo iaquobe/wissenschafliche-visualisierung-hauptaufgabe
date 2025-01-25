@@ -50,14 +50,14 @@ unset(_cmake_expected_targets)
 add_library(custom_plugin1 SHARED IMPORTED)
 
 set_target_properties(custom_plugin1 PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1/"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/include/custom/plugin1/"
   INTERFACE_LINK_LIBRARIES "fantom-lib;utils_Graphics"
 )
 
 # Import target "custom_plugin1" for configuration "Debug"
 set_property(TARGET custom_plugin1 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(custom_plugin1 PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/iaquobe/Nextcloud/Documents/courses/active/WisVis/fantom/grundaufgaben_build/lib/fantom-plugins/custom/libplugin1.so"
+  IMPORTED_LOCATION_DEBUG "/home/iaquobe/courses/active/WisVis/fantom/grundaufgaben_build/lib/fantom-plugins/custom/libplugin1.so"
   IMPORTED_SONAME_DEBUG "libplugin1.so"
   )
 
